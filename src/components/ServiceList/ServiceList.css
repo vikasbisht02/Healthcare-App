@@ -1,0 +1,62 @@
+.service-list {
+  margin-top: 10vh;
+  max-width: 90vw;
+}
+
+.service-list h2 {
+  font-size: 25px;
+  margin-bottom: 1.5vw;
+}
+
+.service-list ul li {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.service-list .service-name {
+  width: 20vw;
+}
+
+.service-list .service-description {
+  margin-right: 10px;
+  width: 80vw;
+}
+
+.service-list .service-price {
+  width: 10vw;
+  margin-right: 10px;
+}
+
+.service-list button {
+  border: 1px solid grey;
+  color: grey;
+  border-radius: 4px;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  cursor: pointer;
+  margin: 0px 10px;
+  height: 5vh;
+}
+
+.service-list button:hover {
+  background-color: #d3d3d3;
+}
+
+
+
+@media (max-width:440px) {
+
+  .service-list ul li{
+    font-size: 10px !important;
+  }
+
+  .service-list button {
+    font-size: 10px;
+    padding: 0px 10px;
+    height: 20px;
+    margin-right: 0;
+  }
+}

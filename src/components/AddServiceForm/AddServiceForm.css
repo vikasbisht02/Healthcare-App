@@ -1,0 +1,36 @@
+.add-service {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.add-service input, .add-service button {
+  width: 100%; 
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.add-service input:focus {
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.add-service button {
+  cursor: pointer;
+}
+
+.add-service button:hover {
+  background-color: #d3d3d3;
+}
+
+
+@media (max-width:440px) {
+  .add-service {
+    width: 100%;
+  }
+}

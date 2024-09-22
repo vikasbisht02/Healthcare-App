@@ -1,0 +1,54 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.update-form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px; /* Restrict maximum width */
+  margin: 20px auto;
+}
+
+.update-form input {
+  width: 100%; /* Full width for small screens */
+  padding: 12px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.update-form input:focus {
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.update-form button {
+  width: 100%; /* Full width on smaller screens */
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid grey;
+  color: grey;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.update-form button:hover {
+  background-color: #d3d3d3;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .update-form {
+    width: 50%; /* Larger width for bigger screens */
+  }
+
+  .update-form button {
+    width: auto; /* Adjust button size */
+    margin: 10px 10px 0 0;
+  }
+}
